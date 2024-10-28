@@ -10,7 +10,7 @@ function App() {
     // Fetch the message from the Flask API
     const fetchMessage = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:5000/api');
+        const response = await fetch('http://backend:5000/api');
         const data = await response.json();
         setMessage(data.message); // Set the fetched message
       } catch (error) {
