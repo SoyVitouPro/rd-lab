@@ -4,4 +4,4 @@ __pycache__/
 *.pyo
 
 # Ignore the backend directory
-./backend/backend_env/
+backend/backend_end/
